@@ -20,3 +20,16 @@ cars = ['bmw','audi','toyota','subaru']
 
 length = len(cars)
 print(length)
+
+for car in cars:
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())		
+
+print('---------------------------')
+
+num = 'shen'
+print(num == 'Shen')
+print(num.title() == 'Shen')
+print(num)
