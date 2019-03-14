@@ -20,7 +20,7 @@ while flag:
         age = int(age)
     if age < 3:
         print('免费')
-    elif age >= 3 and age < 12:
+    elif (age >= 3) and (age < 12):
         print('10美元')
     else:
         print('15美元')
